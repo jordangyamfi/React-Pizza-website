@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Home } from './Home';
-import { Order } from './Order';
-import { Locations } from './Locations';
+import { Home } from './components/Home';
+import { Order } from './components/Order';
+import { Locations } from './components/Locations';
 import { Layout } from './components/Design';
 import { NavigationBar } from './components/NavigationBar';
 import { Jumbotron } from './components/Banner';
