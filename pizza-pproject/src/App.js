@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './components/Home';
 import { Order } from './components/Order';
 import { Locations } from './components/Locations';
+import Button  from './components/Button';
 import { Layout } from './components/Design';
 import { NavigationBar } from './components/NavigationBar';
 import { Jumbotron } from './components/Banner';
@@ -20,6 +21,7 @@ class App extends Component {
               <Route path="/about" component={Order} />
               <Route path="/contact" component={Locations} />
             </Switch>
+            <Button />
           </Layout>
         </Router>  
       </React.Fragment>
